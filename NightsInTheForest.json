@@ -82,6 +82,7 @@
       "Ice Sword",
       "Chainsaw",
       "Strong Axe",
+      "Axe Trim Kit",
       "Spear",
       "Good Axe",
       "Revolver",
@@ -95,7 +96,9 @@
       "Iron Body",
       "Thorn Body",
       "Riot Shield",
-      "Frog Boots"
+      "Frog Boots",
+      "Armour Trim Kit",
+      "Obsidiron Boots"
     ],
     "Others": [
       "Frog Key",
@@ -121,6 +124,8 @@
       "Polar Bear Pelt",
       "Bear Corpse",
       "Meteor Shard",
+      "Gold Shard",
+      "Raw Obsidiron Ore",
       "Gem of the Forest Fragment",
       "Diamond",
       "Defense Blueprint"
