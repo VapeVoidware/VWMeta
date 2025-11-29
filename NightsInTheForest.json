@@ -1,5 +1,6 @@
 {
     "Characters": [
+      "Turkey",
       "Shadow Cultist",
       "Brutal Cultist",
       "FrogKing",
@@ -54,6 +55,7 @@
       "Biofuel"
     ],
     "Food_Healing": [
+      "Sweet Potato",
       "Carrot",
       "Pumpkin",
       "Mackerel",
