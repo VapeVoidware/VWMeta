@@ -1,0 +1,90 @@
+{
+    "DAMAGE": {
+        "order": 3,
+        "tiers": [
+            {
+                "value": 0.05,
+                "description": "+5% Damage",
+                "cost": 5
+            },
+            {
+                "value": 0.1,
+                "description": "+10% Damage",
+                "cost": 10
+            },
+            {
+                "value": 0.2,
+                "description": "+20% Damage",
+                "cost": 18
+            }
+        ],
+        "name": "Damage",
+        "icon": "rbxassetid://98759196482529"
+    },
+    "DIAMOND_GENERATOR": {
+        "order": 2,
+        "tiers": [
+            {
+                "value": 66.66666666666667,
+                "description": "Spawn Diamonds",
+                "cost": 4
+            },
+            {
+                "value": 53.33333333333333,
+                "description": "+25% Speed",
+                "cost": 8
+            },
+            {
+                "value": 44.44444444444444,
+                "description": "+50% Speed",
+                "cost": 12
+            }
+        ],
+        "name": "Diamond Gen",
+        "icon": "rbxassetid://87959990622561"
+    },
+    "TEAM_GENERATOR": {
+        "order": 1,
+        "tiers": [
+            {
+                "value": 0.5,
+                "description": "+50% Speed",
+                "cost": 4
+            },
+            {
+                "value": 1,
+                "description": "+100% Speed",
+                "cost": 8
+            },
+            {
+                "value": 1.5,
+                "description": "Spawn Emeralds",
+                "cost": 16
+            }
+        ],
+        "name": "Team Gen",
+        "icon": "rbxassetid://109513164484899"
+    },
+    "ARMOR": {
+        "order": 4,
+        "tiers": [
+            {
+                "value": 0.1,
+                "description": "+10% Armor",
+                "cost": 4
+            },
+            {
+                "value": 0.2,
+                "description": "+20% Armor",
+                "cost": 8
+            },
+            {
+                "value": 0.3,
+                "description": "+30% Armor",
+                "cost": 20
+            }
+        ],
+        "name": "Armor",
+        "icon": "rbxassetid://121388634858388"
+    }
+}

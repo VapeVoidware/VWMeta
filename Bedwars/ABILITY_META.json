@@ -1,0 +1,2067 @@
+{
+    "prowler_mark": {
+        "cooldown": {
+            "id": "prowler_mark",
+            "duration": 20
+        },
+        "actionBarName": "Prowler's Mark"
+    },
+    "ice_queen": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://16033004021"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "ice_queen",
+            "duration": 15
+        },
+        "actionBarName": "Detonate Ice Stacks"
+    },
+    "OWL_LIFT": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://12517740081"
+            }
+        },
+        "cooldown": {
+            "id": "owl_lift",
+            "duration": 85
+        },
+        "actionBarName": "Owl Lift"
+    },
+    "PIRATE_TELESCOPE": {
+        "cooldown": {
+            "id": "pirate_telescope",
+            "duration": 20
+        },
+        "actionBarName": "Telescope"
+    },
+    "spirit_gardener_water": {
+        "enableAbilityOnUse": "spirit_gardener_water_cancel",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://75914154716288"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Transfer Energy to nearby plants.",
+        "cooldown": {
+            "id": "spirit_gardener_water",
+            "duration": 1
+        },
+        "actionBarName": "Spirit Transfer"
+    },
+    "BH_HIDER_DISGUISE_BLOCK": {
+        "cooldown": {
+            "id": "bh_hider_disguise_block",
+            "duration": 3
+        },
+        "actionBarName": "Morph into the selected block!"
+    },
+    "DAGGER_DASH": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 1
+        },
+        "actionBarName": "Dash"
+    },
+    "CONDIMENT_GUN_CYCLE": {
+        "actionBarName": "Switch Condiment"
+    },
+    "tinker_summon": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://17016816172"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "tinker_summon",
+            "duration": 15
+        },
+        "actionBarName": "Summon Talos Mech"
+    },
+    "skating_freeze": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://108669701532183"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Activate to freeze the area and gain momentum more quickly",
+        "cooldown": {
+            "id": "ice_skating_freeze",
+            "duration": 12
+        },
+        "actionBarName": "Freeze"
+    },
+    "SPIRIT_ASSASSIN_TELEPORT": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 10
+        },
+        "actionBarName": "Teleport"
+    },
+    "RAINBOW_AXE": {
+        "cooldown": {
+            "id": "rainbow_axe",
+            "duration": 15,
+            "config": {
+                "cooldownBar": {
+                    "color": null
+                }
+            }
+        },
+        "actionBarName": "Activate"
+    },
+    "DEACTIVE_OWL": {
+        "cooldown": {
+            "id": "summon_owl",
+            "duration": 3
+        },
+        "actionBarName": "Deactive Owl"
+    },
+    "SLIME_CYCLE": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarName": "Cycle Slime"
+    },
+    "LIGHTNING_STORM": {
+        "cooldown": {
+            "id": "lightning_storm",
+            "duration": 30
+        },
+        "actionBarName": "Lightning Storm"
+    },
+    "LIGHTNING_STRIKE": {
+        "cooldown": {
+            "id": "lightning_strike",
+            "duration": 0.8
+        },
+        "actionBarName": "Lightning Strike"
+    },
+    "DETONATE_BOMB": {
+        "cooldown": {
+            "id": "detonate_bomb",
+            "duration": 1
+        },
+        "actionBarName": "Detonate"
+    },
+    "CARD_THROW": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://13815945825",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "card_throw",
+            "duration": 15
+        },
+        "actionBarName": "Card Throw"
+    },
+    "SORCERER_EXPLOSION_TIER_1": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://18940513542"
+            }
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Collect alchemy crystals to use this ability. Upgrade to the next level at 5 crystals",
+        "cooldown": {
+            "id": "sorcerer_explosion",
+            "duration": 1
+        },
+        "actionBarName": "Charge Explosive Comet (Lv1)"
+    },
+    "RECALL_FALCON": {
+        "triggerConfig": {
+            "abilityType": "KitSecondary",
+            "abilityButton": {
+                "icon": "rbxassetid://17002283339"
+            }
+        },
+        "cooldown": {
+            "id": "recall_falcon",
+            "duration": 3
+        },
+        "actionBarName": "Recall Falcon"
+    },
+    "oasis_heal_veil": {
+        "blockingStatusEffects": [],
+        "cooldown": {
+            "id": "oasis_heal_veil",
+            "duration": 20
+        },
+        "actionBarName": "Oasis Heal Veil"
+    },
+    "self_damage": {
+        "usableProgress": {
+            "progressNeededPerUse": 3
+        },
+        "actionBarName": "Self Damage"
+    },
+    "ROCKET_BELT": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "rocket_belt",
+            "duration": 15
+        },
+        "actionBarName": "Rocket Belt"
+    },
+    "summon_hive": {
+        "cooldown": {
+            "id": "summon_hive",
+            "duration": 30
+        },
+        "actionBarName": "Cancel"
+    },
+    "midnight": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "usableProgress": {
+            "progressNeededPerUse": 120,
+            "gradient": null
+        },
+        "actionBarName": "Midnight"
+    },
+    "oasis_buff_projectile": {
+        "blockingStatusEffects": [],
+        "cooldown": {
+            "id": "oasis_projectile",
+            "duration": 0.35
+        },
+        "actionBarName": "Oasis Buff Projectile"
+    },
+    "enter_knight_shield_defensive_stance": {
+        "enableAbilityOnUse": "exit_knight_shield_defensive_stance",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://76984958562000"
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "actionBarDescription": "Take reduced damage with slower movement speed and gain a shield attack.",
+        "cooldown": {
+            "id": "enter_knight_shield_defensive_stance",
+            "duration": 1
+        },
+        "actionBarName": "Defensive Stance"
+    },
+    "rebellion_shield": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://133802871831157"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Consume all stacks of Triumph to shield nearby allies and enchance Aura effect ",
+        "cooldown": {
+            "id": "rebellion_shield",
+            "duration": 20
+        },
+        "actionBarName": "Press the Attack!"
+    },
+    "CARD_UPGRADES": {
+        "actionBarName": "See Current Upgrades"
+    },
+    "BLOCK_PICKER": {
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 0.25
+        },
+        "actionBarName": "Get current highlighted block."
+    },
+    "SORCERER_PROJECTILE_CANCEL": {
+        "triggerConfig": {
+            "abilityType": "KitSecondary",
+            "abilityButton": {
+                "icon": "rbxassetid://16812686987"
+            }
+        },
+        "actionBarName": "Cancel"
+    },
+    "WIZARD_MANA_3": {
+        "usableProgress": {
+            "stacks": 6,
+            "gradient": null,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 2,
+            "initialProgress": 12,
+            "stacksBarDividerColor": null,
+            "stacksBarDividerTransparency": 0.4
+        },
+        "actionBarName": "Mana"
+    },
+    "void_knight_consume_emerald": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://136263073387773",
+                "stateColors": {
+                    "disabled": null,
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Consume emeralds to feed the Void Corruption within you and grow stronger.",
+        "cooldown": {
+            "id": "void_knight_consume_iron",
+            "duration": 0.2
+        },
+        "actionBarName": "Consume Emeralds"
+    },
+    "recall": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "wormhole",
+            "duration": 2
+        },
+        "actionBarName": "Go to base"
+    },
+    "buy_next_defense_level": {
+        "blockingStatusEffects": [],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://9964937994"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "",
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 1
+        },
+        "actionBarName": "Open Defender Menu"
+    },
+    "FROST_HAMMER_SLAM": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://11837252970",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "cooldown": {
+            "id": "frost_slam",
+            "duration": 25
+        },
+        "actionBarName": "Arctic Slam"
+    },
+    "TRUMPET_PLAY": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "trumpet",
+            "duration": 1
+        },
+        "actionBarName": "Trumpet Play"
+    },
+    "dragon_sword": {
+        "cooldown": {
+            "id": "dragon_sword",
+            "duration": 2
+        },
+        "actionBarName": "Dragon Sword"
+    },
+    "MIMIC_BLOCK_PICKPOCKET": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "mimic_block_pickpocket",
+            "duration": 0.5
+        },
+        "actionBarName": "Pickpocket"
+    },
+    "HATTER_TELEPORT": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://12517846659",
+                "stateColors": {
+                    "ready": null
+                }
+            }
+        },
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "hatter_teleport",
+            "duration": 3
+        },
+        "actionBarName": "Teleport"
+    },
+    "HATTER_TARGET_ALERT": {
+        "triggerConfig": {
+            "abilityType": "MiscPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://12517846780",
+                "stateColors": {
+                    "ready": null
+                }
+            }
+        },
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 5
+        },
+        "actionBarName": "Alert Hatter"
+    },
+    "void_knight_consume_iron": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://105807219436525",
+                "stateColors": {
+                    "disabled": null,
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Consume iron to feed the Void Corruption within you and grow stronger.",
+        "cooldown": {
+            "id": "void_knight_consume_iron",
+            "duration": 0.2
+        },
+        "actionBarName": "Consume Iron"
+    },
+    "WEREWOLF_HOWL": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "werewolf_howl",
+            "duration": 25
+        },
+        "actionBarName": "Howl"
+    },
+    "summon_heal_spirit": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://99830082761589",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "KitTertiary"
+        },
+        "actionBarDescription": "Use a summon stone to summon a spirit that specializes in healing.",
+        "cooldown": {
+            "id": "spirit_summon",
+            "duration": 0.9
+        },
+        "actionBarName": "Summon Heal Spirit"
+    },
+    "consume_life_foce": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://131023380051239"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Consume life force to heal yourself.",
+        "cooldown": {
+            "id": "consume_life_force",
+            "duration": 3
+        },
+        "actionBarName": "Consume Life Force"
+    },
+    "WARLOCK_LINK": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "WARLOCK",
+            "duration": 0.5
+        },
+        "actionBarName": "Link target"
+    },
+    "JUGGERNAUT_ULTIMATE": {
+        "cooldown": {
+            "id": "juggernaut_ult",
+            "duration": 25,
+            "config": {
+                "playSounds": true
+            }
+        },
+        "actionBarName": "Ult"
+    },
+    "exit_knight_shield_defensive_stance": {
+        "enableAbilityOnUse": "enter_knight_shield_defensive_stance",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://102635730783150"
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "cooldown": {
+            "id": "exit_knight_shield_defensive_stance",
+            "duration": 1
+        },
+        "actionBarName": "Exit Defensive Stance"
+    },
+    "JUGGERNAUT_DASH": {
+        "cooldown": {
+            "id": "juggernaut_dash",
+            "duration": 5,
+            "config": {
+                "playSounds": true
+            }
+        },
+        "actionBarName": "DASH"
+    },
+    "BLOCK_STOMP": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15372799986"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "block_stomp",
+            "duration": 30
+        },
+        "actionBarName": "Block Stomp"
+    },
+    "world_guard_radial_wheel": {
+        "clientPredictUseAbility": true,
+        "actionBarName": "World Guard"
+    },
+    "SORCERER_EXPLOSION_TIER_4": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Collect alchemy crystals to use this ability. Upgrade to the next level at 12 crystals",
+        "cooldown": {
+            "id": "sorcerer_explosion",
+            "duration": 1
+        },
+        "actionBarName": "Charge Explosive Comet (Lv4)"
+    },
+    "PARTY_POPPER": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "party_popper",
+            "duration": 1
+        },
+        "actionBarName": "Party Popper"
+    },
+    "void_turret_fire": {
+        "cooldown": {
+            "id": "void_laser",
+            "duration": 2.4
+        },
+        "actionBarName": "Void Laser"
+    },
+    "snowball_rider_win_effect": {
+        "actionBarDescription": "Explodes on impact!",
+        "cooldown": {
+            "id": "snowball_shoot_wineffect",
+            "duration": 3
+        },
+        "actionBarName": "Drop Exploding Snowball"
+    },
+    "USE_CONFETTI_CANNON": {
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 20
+        },
+        "actionBarName": "Confetti Cannon"
+    },
+    "summoner_finish_charging": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://18964971778"
+            }
+        },
+        "cooldown": {
+            "id": "summoner_finish_charging",
+            "duration": 1
+        },
+        "actionBarName": "Finish Summon"
+    },
+    "jellyfish_mount_swap_color": {
+        "cooldown": {
+            "id": "jellyfish_mount_swap_color",
+            "duration": 1
+        },
+        "actionBarName": "Swap Color"
+    },
+    "airbender_tornado": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://90288429741417"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Create a sandstorm that follows you. Enemies in range are pulled toward the center and take light damage over time. Blocks enemy projectiles.",
+        "cooldown": {
+            "id": "airbender_tornado",
+            "duration": 17
+        },
+        "actionBarName": "Sandstorm"
+    },
+    "BH_HIDER_INVISIBLITY": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "bh_hider_invisibility",
+            "duration": 120
+        },
+        "actionBarName": "Turn invisible for 10 seconds."
+    },
+    "TREASURE_BACKPACK": {
+        "cooldown": {
+            "id": "backpack",
+            "duration": 0
+        },
+        "actionBarName": "Open Shop"
+    },
+    "MENDING_CANOPY_STAFF_CHARGE_ENABLED": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "mending_canopy_staff_enabled",
+            "duration": 1
+        },
+        "actionBarName": "Charge Staff"
+    },
+    "airbender_moving_tornado": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://92427810403307"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Create a sandstorm that moves forward. Enemies in range are pulled toward the center and take light damage over time. Blocks enemy projectiles.",
+        "cooldown": {
+            "id": "airbender_moving_tornado",
+            "duration": 20
+        },
+        "actionBarName": "Moving Sandstorm"
+    },
+    "jade_hammer_jump": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "jade_hammer",
+            "duration": 5
+        },
+        "actionBarName": "Hammer Leap"
+    },
+    "frosty_gun_swap": {
+        "actionBarDescription": "HSwap Weapon Mode",
+        "actionBarName": "Swap Weapon Mode"
+    },
+    "MENDING_CANOPY_STAFF_MANA_TIER_2": {
+        "usableProgress": {
+            "stacks": 110,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 1,
+            "initialProgress": 110,
+            "gradient": null,
+            "stacksBarDividerTransparency": 1
+        },
+        "actionBarName": "Mana"
+    },
+    "halloween_nazar_knockback_strike": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://109159128683807"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "halloween_NAZAR_KNOCKBACK_STRIKE",
+            "duration": 1
+        },
+        "actionBarName": "Knockback Strike"
+    },
+    "MENDING_CANOPY_STAFF_CHARGE_DISABLED": {
+        "cooldown": {
+            "id": "mending_canopy_staff_disabled",
+            "duration": 1
+        },
+        "actionBarName": "Stop Charging Staff"
+    },
+    "CAT_POUNCE": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://15357496089"
+            }
+        },
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "cat_pounce",
+            "duration": 7.5
+        },
+        "actionBarName": "Pounce"
+    },
+    "MURDERER_DAGGER_KILL": {
+        "cooldown": {
+            "id": "murderer_kill",
+            "duration": 0.5
+        },
+        "actionBarName": "Kill"
+    },
+    "void_knight_ascend": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://92816562193712",
+                "stateColors": {
+                    "disabled": null,
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Allow the Void to grant you its full power and temporarily ascend to a higher form.",
+        "cooldown": {
+            "id": "void_knight_ascendancy",
+            "duration": 60
+        },
+        "actionBarName": "Void Ascension"
+    },
+    "merchant_reroll": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://109998830106311"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "merchant_reroll",
+            "duration": 180
+        },
+        "actionBarName": "Reroll"
+    },
+    "meteor_summon": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "meteor_caller",
+            "duration": 20
+        },
+        "actionBarName": "Summon Meteor"
+    },
+    "tinker_self_repair": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://11533277908"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "tinker_self_repair",
+            "duration": 5
+        },
+        "actionBarName": "Self-Repair"
+    },
+    "SORCERER_EXPLOSION_TIER_2": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Collect alchemy crystals to use this ability. Upgrade to the next level at 7 crystals",
+        "cooldown": {
+            "id": "sorcerer_explosion",
+            "duration": 1
+        },
+        "actionBarName": "Charge Explosive Comet (Lv2)"
+    },
+    "ACTIVATE_FALCON_INDICATOR": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://17002283171"
+            }
+        },
+        "cooldown": {
+            "id": "activate_FALCON_indicator",
+            "duration": 5
+        },
+        "actionBarName": "Summon Falcon"
+    },
+    "drone_speed_boost": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://9507317177"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "drone_speed_boost",
+            "duration": 12
+        },
+        "actionBarName": "Drone Speed Boost"
+    },
+    "MENDING_CANOPY_STAFF_MANA_TIER_3": {
+        "usableProgress": {
+            "stacks": 120,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 1,
+            "initialProgress": 120,
+            "gradient": null,
+            "stacksBarDividerTransparency": 1
+        },
+        "actionBarName": "Mana"
+    },
+    "super_melody_heal": {
+        "actionBarDescription": "Heals nearby allies",
+        "cooldown": {
+            "id": "super_melody_heal",
+            "duration": 6
+        },
+        "actionBarName": "Tone of Peace"
+    },
+    "skeleton_ability": {
+        "blockingStatusEffects": [],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://81402437638898"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Start creating poison clouds around you for a period of time that slow enemies and deal poison damage",
+        "cooldown": {
+            "id": "skeleton_ability",
+            "duration": 15
+        },
+        "actionBarName": "Toxic Escape"
+    },
+    "WIZARD_MANA_2": {
+        "usableProgress": {
+            "stacks": 5,
+            "gradient": null,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 2,
+            "initialProgress": 10,
+            "stacksBarDividerColor": null,
+            "stacksBarDividerTransparency": 0.4
+        },
+        "actionBarName": "Mana"
+    },
+    "BLOOD_ASSASSIN_MENU": {
+        "clientPredictUseAbility": true,
+        "actionBarName": "Contracts"
+    },
+    "villain_wand_heal": {
+        "cooldown": {
+            "id": "villain_wand_heal",
+            "duration": 5
+        },
+        "actionBarName": "Wand Heal Cast"
+    },
+    "FIREWORK_BACKPACK": {
+        "blockingStatusEffects": [
+            "grounded"
+        ],
+        "usableProgress": {
+            "progressNeededPerUse": 1,
+            "stacks": 2,
+            "initialProgress": 2,
+            "displayProgressOnButton": true
+        },
+        "actionBarDescription": "Launch yourself into the air! Also activates automatically upon reaching the void.",
+        "cooldown": {
+            "id": "backpack",
+            "duration": 2
+        },
+        "actionBarName": "Deploy fireworks!"
+    },
+    "dash": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "usableProgress": {
+            "progressNeededPerUse": 2,
+            "stacks": 4,
+            "gradient": null,
+            "initialProgress": 8
+        },
+        "actionBarName": "Dash"
+    },
+    "hand_gun": {
+        "blockingStatusEffects": [
+            "grounded",
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://95595318707967"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Deals damage and marks all enemies in front. The impulse will also knock you backward.",
+        "cooldown": {
+            "id": "hand_gun",
+            "duration": 8
+        },
+        "actionBarName": "Fire!"
+    },
+    "spider_queen_web_bridge_cancel": {
+        "actionBarName": "Cancel Web Bridge"
+    },
+    "WIZARD_MANA": {
+        "usableProgress": {
+            "stacks": 4,
+            "gradient": null,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 2,
+            "initialProgress": 8,
+            "stacksBarDividerColor": null,
+            "stacksBarDividerTransparency": 0.4
+        },
+        "actionBarName": "Mana"
+    },
+    "summoner_start_charging": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://18964970965"
+            }
+        },
+        "cooldown": {
+            "id": "summoner_start_charging",
+            "duration": 25
+        },
+        "actionBarName": "Summon"
+    },
+    "place_scarab_hive": {
+        "blockingStatusEffects": [],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://88847904651635"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Place down a scarab hive.",
+        "cooldown": {
+            "id": "place_hive",
+            "duration": 1
+        },
+        "actionBarName": "Place hive"
+    },
+    "berserker_rage": {
+        "blockingStatusEffects": [],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://127497886517317"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Activate to gain break speed, prevent knockback, and reduce incoming damage.",
+        "cooldown": {
+            "id": "berserker_rage",
+            "duration": 25
+        },
+        "actionBarName": "Berserker Rage"
+    },
+    "hero_wand_heal": {
+        "cooldown": {
+            "id": "hero_wand_heal",
+            "duration": 5
+        },
+        "actionBarName": "Wand Heal Cast"
+    },
+    "void_axe_jump": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "void_axe",
+            "duration": 6
+        },
+        "actionBarName": "Void Slam"
+    },
+    "dragon_sword_ult": {
+        "cooldown": {
+            "id": "dragon_sword_ult",
+            "duration": 15
+        },
+        "actionBarName": "Dragon Sword Ult"
+    },
+    "cactus_fire": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://110028303002153",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Siphon life essence from nearby enemies and gain max HP permanently.",
+        "cooldown": {
+            "id": "cactus_fire",
+            "duration": 15
+        },
+        "actionBarName": "Wild Growth"
+    },
+    "raven_detonate": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://7343272003"
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "actionBarName": "Detonate"
+    },
+    "raven_spawn": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://7343272003"
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "actionBarName": "Spawn"
+    },
+    "melody_heal": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://7085044606"
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "melody",
+            "duration": 1
+        },
+        "actionBarName": "Heal"
+    },
+    "yuzi_dragon_fire_breath_win_effect": {
+        "actionBarName": "Fire Breath"
+    },
+    "styx_respawn": {
+        "cooldown": {
+            "id": "styx_respawn",
+            "duration": 1
+        },
+        "actionBarName": "Respawn Early"
+    },
+    "spider_queen_summon_spiders": {
+        "triggerConfig": {
+            "abilityType": "KitSecondary",
+            "abilityButton": {
+                "icon": "rbxassetid://114555173618900"
+            }
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "spider_queen_summon_spiders",
+            "duration": 10
+        },
+        "actionBarName": "Summon Spiders"
+    },
+    "void_walker_warp": {
+        "blockingStatusEffects": [
+            "silence",
+            "grounded",
+            "frozen"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://80292694273633"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Warp ahead and create a portal that you can return to later. Gives you Rift Madness",
+        "cooldown": {
+            "id": "void_walker_warp",
+            "duration": 13
+        },
+        "actionBarName": "Rift Warp"
+    },
+    "SUMMON_OWL": {
+        "cooldown": {
+            "id": "summon_owl",
+            "duration": 3
+        },
+        "actionBarName": "Summon Owl"
+    },
+    "BH_HIDER_TAUNT_SOUND": {
+        "actionBarDescription": "+5 Coins",
+        "cooldown": {
+            "id": "bh_hider_taunt_sound",
+            "duration": 10
+        },
+        "actionBarName": "Play a sound to taunt nearby hunters!"
+    },
+    "void_hunter_mark": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://100475188119957"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Send Fenrir to mark an enemy. Deal increased damage to them, gain speed on their trail, and see them through walls. Cooldown reduced if you miss, instantly reset if you kill your mark.",
+        "cooldown": {
+            "id": "void_hunter_mark",
+            "duration": 20
+        },
+        "actionBarName": "Fenrir"
+    },
+    "SORCERER_PROJECTILE_FIRE": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://113700073477121"
+            }
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "sorcerer_fire",
+            "duration": 1
+        },
+        "actionBarName": "Fire"
+    },
+    "oasis_swap_staff": {
+        "cooldown": {
+            "id": "nyoka_swap",
+            "duration": 1
+        },
+        "actionBarName": "Oasis Swap Staff"
+    },
+    "elk_summon": {
+        "blockingStatusEffects": [
+            "grounded",
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15634658354"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "elk_summon_cooldown",
+            "duration": 15
+        },
+        "actionBarName": "Summon Elk"
+    },
+    "TELEPEARL": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 10
+        },
+        "actionBarName": "Teleport"
+    },
+    "FROST_HAMMER_MENU": {
+        "actionBarName": "Opens Hammer Upgrades"
+    },
+    "MENDING_CANOPY_STAFF_MANA_TIER_1": {
+        "usableProgress": {
+            "stacks": 100,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 1,
+            "initialProgress": 100,
+            "gradient": null,
+            "stacksBarDividerTransparency": 1
+        },
+        "actionBarName": "Mana"
+    },
+    "STEAM_ENGINEER_OVERCLOCK": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15364413734"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "steam_engineer_overclock",
+            "duration": 20
+        },
+        "actionBarName": "Overclock"
+    },
+    "summon_attack_spirit": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://79863087123102",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Use a summon stone to summon a spirit that specializes in attacking.",
+        "cooldown": {
+            "id": "spirit_summon",
+            "duration": 1
+        },
+        "actionBarName": "Summon Attack Spirit"
+    },
+    "yeti_glacial_roar": {
+        "actionBarDescription": "Roar to freeze nearby blocks and make them brittle.",
+        "cooldown": {
+            "id": "yeti_ability",
+            "duration": 35
+        },
+        "actionBarName": "Glacial Roar"
+    },
+    "ELECTRIC_DASH": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://13829823877"
+            }
+        },
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "clientPredictUseAbility": true,
+        "usableProgress": {
+            "progressNeededPerUse": 1,
+            "stacks": 2,
+            "initialProgress": 0,
+            "displayProgressOnButton": true
+        },
+        "actionBarName": "Electric Dash"
+    },
+    "spirit_gardener_water_cancel": {
+        "enableAbilityOnUse": "spirit_gardener_water",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://122014970406410"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "spirit_gardener_water_cancel",
+            "duration": 1
+        },
+        "actionBarName": "Stop Transfer"
+    },
+    "SLIME_DIRECT": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "SLIME_DIRECT",
+            "duration": 1
+        },
+        "actionBarName": "Direct/Recall Slime"
+    },
+    "HATTER_PEEK": {
+        "triggerConfig": {
+            "abilityType": "KitSecondary",
+            "abilityButton": {
+                "icon": "rbxassetid://12517846385",
+                "stateColors": {
+                    "ready": null
+                }
+            }
+        },
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 1
+        },
+        "actionBarName": "Peek"
+    },
+    "spider_queen_web_bridge_fire": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://70702583026437"
+            }
+        },
+        "blockingStatusEffects": [
+            "silence",
+            "grounded"
+        ],
+        "cooldown": {
+            "id": "spider_queen_web_bridge_fire",
+            "duration": 1
+        },
+        "actionBarName": "Fire Web Bridge"
+    },
+    "rocket_detonate": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://16988135352"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "zapped_3",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "rocket_detonate_cooldown",
+            "duration": 13
+        },
+        "actionBarName": "Rocket Boost"
+    },
+    "disruptor_explosion_emp": {
+        "cooldown": {
+            "id": "disruptor_explosion",
+            "duration": 12
+        },
+        "actionBarName": "Disruptor EMP"
+    },
+    "spider_queen_web_bridge_aim": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://70702583026437"
+            },
+            "getExtraData": null,
+            "abilityType": "KitPrimary"
+        },
+        "blockingStatusEffects": [
+            "silence",
+            "grounded"
+        ],
+        "cooldown": {
+            "id": "spider_queen_web_bridge_aim",
+            "duration": 8
+        },
+        "actionBarName": "Aim Web Bridge"
+    },
+    "OPEN_TOURNAMENT_TEAM_UI_TEST": {
+        "actionBarName": "OPEN TEAM UI"
+    },
+    "cancel_scarab_hive": {
+        "actionBarName": "Cancel"
+    },
+    "QUEEN_BEE_GLIDE": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "queen_bee_glide",
+            "duration": 30
+        },
+        "actionBarName": "Glide"
+    },
+    "SHOCKWAVE": {
+        "cooldown": {
+            "id": "shockwave",
+            "duration": 15
+        },
+        "actionBarName": "Shockwave"
+    },
+    "rebellion_aura_swap": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://94018856518848"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Swap Aura Effect",
+        "cooldown": {
+            "id": "aura_swap",
+            "duration": 7
+        },
+        "actionBarName": "Swap Aura"
+    },
+    "BLOCK_KICK": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15372798452"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "block_kick",
+            "duration": 0.5
+        },
+        "actionBarName": "Block Kick"
+    },
+    "disable_life_force_attack": {
+        "enableAbilityOnUse": "enable_life_force_attack",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://103775661067061"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Disable to stop using life force to increase damage on melee and ranged attacks.",
+        "cooldown": {
+            "id": "disable_life_force_attack",
+            "duration": 2
+        },
+        "actionBarName": "Disable Empowered Attacks"
+    },
+    "enable_life_force_attack": {
+        "enableAbilityOnUse": "disable_life_force_attack",
+        "disableAfterUse": true,
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://115332676003153"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Enable to consume life force in exchange for increased damage on melee and ranged attacks.",
+        "cooldown": {
+            "id": "enable_life_force_attack",
+            "duration": 2
+        },
+        "actionBarName": "Enable Empowered Attacks"
+    },
+    "SORCERER_EXPLOSION_TIER_3": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Collect alchemy crystals to use this ability. Upgrade to the next level at 8 crystals",
+        "cooldown": {
+            "id": "sorcerer_explosion",
+            "duration": 1
+        },
+        "actionBarName": "Charge Explosive Comet (Lv3)"
+    },
+    "close_black_market": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://119449708031972"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "enableAbilityOnUse": "open_black_market",
+        "disableAfterUse": true,
+        "actionBarName": "Close Black Market"
+    },
+    "villain_wand_bubble": {
+        "cooldown": {
+            "id": "villain_wand_bubble",
+            "duration": 5
+        },
+        "actionBarName": "Wand Bubble Cast"
+    },
+    "OWL_HEAL": {
+        "triggerConfig": {
+            "abilityType": "KitSecondary",
+            "abilityButton": {
+                "icon": "rbxassetid://12517739839"
+            }
+        },
+        "cooldown": {
+            "id": "owl_heal",
+            "duration": 8
+        },
+        "actionBarName": "Heal + Speed"
+    },
+    "WORLD_EDIT_RADIAL_WHEEL": {
+        "clientPredictUseAbility": true,
+        "actionBarName": "World Edit"
+    },
+    "open_black_market": {
+        "enableAbilityOnUse": "close_black_market",
+        "disableAfterUse": true,
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://113001314183117"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Summons the black market in front of you. You receive 2% of the profits",
+        "cooldown": {
+            "id": "open_black_market",
+            "duration": 20
+        },
+        "actionBarName": "Open Black Market"
+    },
+    "SHIELDER_ULT": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "shield_indicator",
+            "duration": 1
+        },
+        "actionBarName": "Leap"
+    },
+    "trinity_swap_form": {
+        "triggerConfig": {
+            "abilityType": "KitPrimary",
+            "abilityButton": {
+                "icon": "rbxassetid://18565831735"
+            }
+        },
+        "cooldown": {
+            "id": "trinity_swap_form",
+            "duration": 30
+        },
+        "actionBarName": "Inversion"
+    },
+    "electrify_jellyfish": {
+        "actionBarDescription": "Enemies near Marina's jellyfish are electrified, taking damage. The more jellyfish that are connected, the more damage they will do.",
+        "cooldown": {
+            "id": "electrify_jellyfish",
+            "duration": 9
+        },
+        "actionBarName": "Electrify Jellyfish"
+    },
+    "END_DRAGON": {
+        "cooldown": {
+            "id": "dragon_breath",
+            "duration": 5
+        },
+        "actionBarName": "Exit Dragon Form"
+    },
+    "ACTIVE_SHIELDER_INDICATOR": {
+        "cooldown": {
+            "id": "shield_indicator",
+            "duration": 1
+        },
+        "actionBarName": "Leap"
+    },
+    "halloween_view_abilities": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://94164067095159"
+            },
+            "abilityType": "MiscPrimary"
+        },
+        "actionBarName": "See current upgrades"
+    },
+    "CLOUD_LIGHTNING_STRIKE": {
+        "cooldown": {
+            "id": "cloud_lightning_strike",
+            "duration": 2
+        },
+        "actionBarName": "Lightning Strike"
+    },
+    "void_walker_rewind": {
+        "blockingStatusEffects": [
+            "silence",
+            "grounded",
+            "frozen"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://133455512135352"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Warp back to your last portal. Does NOT give Rift Madness",
+        "cooldown": {
+            "id": "void_walker_rewind",
+            "duration": 0.5
+        },
+        "actionBarName": "Rift Rewind"
+    },
+    "elk_mounted": {
+        "usableProgress": {
+            "stacks": 3,
+            "gradientRotation": 0,
+            "gradient": null,
+            "progressNeededPerUse": 1,
+            "initialProgress": 0.75,
+            "stacksBarDividerColor": null,
+            "stacksBarDividerTransparency": 0.2
+        },
+        "actionBarName": "Mounted Elk"
+    },
+    "PALADIN_ABILITY": {
+        "cooldown": {
+            "id": "paladin_ability",
+            "duration": 1
+        },
+        "actionBarName": "Teleport"
+    },
+    "FROST_SHIELD": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://11837260674",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "ItemPrimary"
+        },
+        "cooldown": {
+            "id": "frost_shield",
+            "duration": 25,
+            "config": {
+                "playSounds": true
+            }
+        },
+        "actionBarName": "Permafrost Shield"
+    },
+    "whirling_death": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://17016574837"
+            },
+            "abilityType": "KitTertiary"
+        },
+        "cooldown": {
+            "id": "whirling_death",
+            "duration": 10
+        },
+        "actionBarName": "Whirling Death"
+    },
+    "skating_jump": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://107922213125238"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "usableProgress": {
+            "progressNeededPerUse": 1
+        },
+        "actionBarDescription": "Enables at high speeds! Activate to jump and dodge an attack",
+        "cooldown": {
+            "id": "ice_skating_jump",
+            "duration": 7
+        },
+        "actionBarName": "Spin and Dodge"
+    },
+    "TRAIN_WHISTLE": {
+        "cooldown": {
+            "id": "train_whistle",
+            "duration": 2
+        },
+        "actionBarName": "Whistle"
+    },
+    "elk_antler_uppercut": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15612477840"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "elk_antler_uppercut_cooldown",
+            "duration": 14
+        },
+        "actionBarName": "Charge Attack"
+    },
+    "super_melody_ult": {
+        "actionBarDescription": "Force nearby enemies to dance",
+        "cooldown": {
+            "id": "super_melody_ult",
+            "duration": 20
+        },
+        "actionBarName": "Lets Dance!"
+    },
+    "MIMIC_BLOCK": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://14784485378"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Morph into selected block.",
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 1
+        },
+        "actionBarName": "Block Morph"
+    },
+    "PUMPKIN_BACKPACK": {
+        "cooldown": {
+            "id": "healing_belt",
+            "duration": 20
+        },
+        "actionBarName": "Trigger"
+    },
+    "HOT_AIR_BALLOON_TNT": {
+        "cooldown": {
+            "id": "hot_air_balloon_tnt",
+            "duration": 3
+        },
+        "actionBarName": "Drop TNT"
+    },
+    "HEALING_BACKPACK": {
+        "cooldown": {
+            "id": "healing_belt",
+            "duration": 20
+        },
+        "actionBarName": "First Aid"
+    },
+    "DEACTIVE_SHIELDER_INDICATOR": {
+        "cooldown": {
+            "id": "shield_indicator",
+            "duration": 1
+        },
+        "actionBarName": "Leap"
+    },
+    "MENDING_CANOPY_STAFF_OVERCHARGE": {
+        "cooldown": {
+            "id": "mending_canopy_staff_overcharge",
+            "duration": 60
+        },
+        "actionBarName": "Overcharge Staff"
+    },
+    "super_jump": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "super_jump",
+            "duration": 3
+        },
+        "actionBarName": "Super Jump"
+    },
+    "GLITCH_TRUMPET_PLAY": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "glitch_trumpet",
+            "duration": 1
+        },
+        "actionBarName": "Trumpet Play"
+    },
+    "dino_charge": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://9855535867"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "dino_attack",
+            "duration": 50
+        },
+        "actionBarName": "Charge Attack"
+    },
+    "NOXIOUS_SLEDGEHAMMER_SLAM": {
+        "clientPredictUseAbility": true,
+        "usableProgress": {
+            "progressNeededPerUse": 2,
+            "stacks": 3,
+            "gradient": null,
+            "initialProgress": 6
+        },
+        "actionBarName": "Crush"
+    },
+    "SCYTHE_DASH_AND_SPIN": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "no_cooldown",
+            "duration": 1
+        },
+        "actionBarName": "Reap"
+    },
+    "SNOWBALL_LAUNCHER_CYCLE": {
+        "actionBarName": "Switch Launcher Mode"
+    },
+    "super_melody_aura": {
+        "actionBarDescription": "Continously heal nearby allies and damage enemies",
+        "cooldown": {
+            "id": "super_melody_aura",
+            "duration": 15
+        },
+        "actionBarName": "Harmonic Tone"
+    },
+    "MORTAR": {
+        "cooldown": {
+            "id": "mortar",
+            "duration": 0.1
+        },
+        "actionBarName": "Dragon Mortar"
+    },
+    "hero_wand_bubble": {
+        "cooldown": {
+            "id": "hero_wand_bubble",
+            "duration": 5
+        },
+        "actionBarName": "Wand Bubble Cast"
+    },
+    "elk_dismiss": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://15634660297"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "cooldown": {
+            "id": "elk_dismiss_cooldown",
+            "duration": 5
+        },
+        "actionBarName": "Dismount Elk"
+    },
+    "BH_HIDER_TAUNT_FIREWORK": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "+10 Coins",
+        "cooldown": {
+            "id": "bh_hider_taunt_firework",
+            "duration": 20
+        },
+        "actionBarName": "Send up a firework to taunt nearby hunters!"
+    },
+    "SEND_FALCON": {
+        "cooldown": {
+            "id": "send_falcon",
+            "duration": 0.5
+        },
+        "actionBarName": "Send Falcon"
+    },
+    "Hoverboard_long_jump": {
+        "cooldown": {
+            "id": "hoverboard_long_jump",
+            "duration": 3
+        },
+        "actionBarName": "A Trick!"
+    },
+    "MIMIC_BLOCK_HIDDEN": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "triggerConfig": {
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Morph into selected block.",
+        "usableProgress": {
+            "stacks": 120,
+            "gradientRotation": 0,
+            "progressNeededPerUse": 1,
+            "initialProgress": 120,
+            "gradient": null,
+            "stacksBarDividerTransparency": 1
+        },
+        "actionBarName": "Block Morph"
+    },
+    "THRUSTER_BACKPACK": {
+        "blockingStatusEffects": [
+            "grounded",
+            "frosted",
+            "silence"
+        ],
+        "cooldown": {
+            "id": "thruster",
+            "duration": 10
+        },
+        "actionBarName": "Open Shop"
+    },
+    "change_spirit_affinity": {
+        "actionBarDescription": "Change what type of spirit you send out.",
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://98253113058980",
+                "stateColors": {
+                    "ready": null
+                }
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarName": "Change Spirit Affinity"
+    },
+    "SORCERER_EXPLOSION_TIER_5": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "actionBarDescription": "Collect alchemy crystals to use this ability",
+        "cooldown": {
+            "id": "sorcerer_explosion",
+            "duration": 1
+        },
+        "actionBarName": "Charge Explosive Comet (Lv5)"
+    },
+    "SORCERER_EXPLOSION_HALLOWEEN": {
+        "blockingStatusEffects": [
+            "silence"
+        ],
+        "cooldown": {
+            "id": "sorcerer_explosion_halloween",
+            "duration": 10
+        },
+        "actionBarName": "Charge Explosive Comet"
+    },
+    "tinker_self_destruction": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://17016816172"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "cooldown": {
+            "id": "tinker_self_destruction",
+            "duration": 25
+        },
+        "actionBarName": "Self-Destruct"
+    },
+    "void_hunter_detonate": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://75610593440143"
+            },
+            "abilityType": "KitSecondary"
+        },
+        "actionBarDescription": "Detonate your active mark, removing it and dealing damage. You will lose buffs against the target, so use wisely!",
+        "cooldown": {
+            "id": "void_hunter_detonate",
+            "duration": 1
+        },
+        "actionBarName": "Hunt's End"
+    },
+    "JUGGERNAUT_SPIN": {
+        "cooldown": {
+            "id": "juggernaut_spin",
+            "duration": 10,
+            "config": {
+                "playSounds": true
+            }
+        },
+        "actionBarName": "SPIN"
+    },
+    "swap_hot_potato_mode": {
+        "cooldown": {
+            "id": "swap_hot_potato_mode",
+            "duration": 1
+        },
+        "actionBarName": "Swap Hot Potato Mode"
+    },
+    "oasis_heal_projectile": {
+        "blockingStatusEffects": [],
+        "cooldown": {
+            "id": "oasis_projectile",
+            "duration": 0.35
+        },
+        "actionBarName": "Oasis Heal Projectile"
+    },
+    "SPIRIT_BRIDGE": {
+        "cooldown": {
+            "id": "spirit_bridge",
+            "duration": 60
+        },
+        "actionBarName": "Spirit Bridge"
+    },
+    "IMPULSE_GUN": {
+        "cooldown": {
+            "id": "impulse_gun",
+            "duration": 3
+        },
+        "actionBarName": "Impulse Gun"
+    },
+    "bounty_hunter_reroll": {
+        "triggerConfig": {
+            "abilityButton": {
+                "icon": "rbxassetid://109998830106311"
+            },
+            "abilityType": "KitPrimary"
+        },
+        "actionBarDescription": "Reroll your current bounty for a new one.",
+        "cooldown": {
+            "id": "bounty_hunter_reroll",
+            "duration": 60
+        },
+        "actionBarName": "Reroll Bounty"
+    }
+}
