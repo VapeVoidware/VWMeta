@@ -81,9 +81,10 @@
       "Chilli",
       "Apple",
       "Cake",
-      "MRE"
+	  "Candy Apple"
     ],
     "Guns_Armor": [
+	  "Bouncing Blade",
       "Infernal Sword",
       "Morningstar",
       "Crossbow",
@@ -111,11 +112,11 @@
       "Riot Shield",
       "Frog Boots",
       "Armour Trim Kit",
-      "Obsidiron Boots",
-      "Dynamite"
+      "Obsidiron Boots"
     ],
     "Others": [
       "Gears",
+	  "Potion",
       "Impact Grenade",
       "Acorn",
       "Christmas Lights",
