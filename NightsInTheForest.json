@@ -1,6 +1,7 @@
 {
     "Characters": [
       "Boar",
+      "Jungle Cultist",
       "Darkstring Cultist",
       "Shadow Cultist",
       "Brutal Cultist",
@@ -59,6 +60,14 @@
       "Ram",
       "Deer",
       "Owl"
+    ],
+    "CultistsMeta": [
+      "Jungle Cultist",
+      "Darkstring Cultist",
+      "Shadow Cultist",
+      "Brutal Cultist",
+      "Crossbow Cultist",
+      "Juggernaut Cultist"
     ],
     "Fuel": [
       "Crossbow Cultist",
